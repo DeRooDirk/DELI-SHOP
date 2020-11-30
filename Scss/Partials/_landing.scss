@@ -1,1 +1,79 @@
-    /* Start of Own Scss , Inicio de la propia Scss */
+/* Start of Own Scss , Inicio de la propia Scss */
+
+.landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('/Img/afood.jpg');
+    height: 65vh;
+    max-width: 100vw;
+    background-position: top 100;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(138, 134, 134, 0.596);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    .navbar {
+        background-color: rgba(211, 211, 211, 0.616);
+        display: flex;
+        align-items: center;
+        .nav {
+            width: 70%;
+            margin: 0 auto;
+            padding: 1em;
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                li {
+                    margin: 1.2em;
+                    display: flex;
+                    a {
+                        text-decoration: none;
+                        border: 1px solid red;
+                        padding: 5px;
+                        font-family: 'Merriweather', serif;
+                        color: rgb(27, 26, 26);
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+    }
+    .intro {
+        width: 50%;
+        margin: 50px auto;
+        text-align: center;
+        h1 {
+            color: whitesmoke;
+            font-family: 'Merienda', cursive;
+            font-size: 3.5rem;
+            letter-spacing: 5px;
+        }
+        p {
+            color: whitesmoke;
+            font-family: 'Merriweather', serif;
+            letter-spacing: 2px;
+            font-size: 1.5rem;
+        }
+        ul {
+            li {
+                margin: 80px;
+                a {
+                    color: whitesmoke;
+                    font-family: 'Merriweather', serif;
+                    text-decoration: none;
+                    border: 2px solid rgb(187, 199, 26);
+                    background-color: rgb(39, 39, 145);
+                    padding: 1em 2em;
+                }
+            }
+        }
+    }
+}
+
+.slider {
+    background-color: rgb(250, 235, 215);
+    max-width: 100vw;
+    height: 45vh;
+}

@@ -1,3 +1,104 @@
 /* Start for Variables ,Colors , Fonts  ,Empiece por Variables, Colores, Fuentes*/
 /* Start of Own Scss , Inicio de la propia Scss */
+.landing {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.9))), url("/Img/afood.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("/Img/afood.jpg");
+  height: 65vh;
+  max-width: 100vw;
+  background-position: top 100;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(138, 134, 134, 0.596);
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.landing .navbar {
+  background-color: rgba(211, 211, 211, 0.616);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing .navbar .nav {
+  width: 70%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.landing .navbar .nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landing .navbar .nav ul li {
+  margin: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landing .navbar .nav ul li a {
+  text-decoration: none;
+  border: 1px solid red;
+  padding: 5px;
+  font-family: 'Merriweather', serif;
+  color: #1b1a1a;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.landing .intro {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.landing .intro h1 {
+  color: whitesmoke;
+  font-family: 'Merienda', cursive;
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+}
+
+.landing .intro p {
+  color: whitesmoke;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+
+.landing .intro ul li {
+  margin: 80px;
+}
+
+.landing .intro ul li a {
+  color: whitesmoke;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  border: 2px solid #bbc71a;
+  background-color: #272791;
+  padding: 1em 2em;
+}
+
+.slider {
+  background-color: antiquewhite;
+  max-width: 100vw;
+  height: 45vh;
+}
 /*# sourceMappingURL=style.css.map */
