@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,kFAAkF;ACA9E,kDAAkD",
+    "sources": [
+        "style.scss",
+        "Partials/_variables.scss",
+        "Partials/_landing.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
