@@ -54,7 +54,7 @@
 
 .landing .navbar .nav ul li a {
   text-decoration: none;
-  border: 1px solid red;
+  border: 1px solid #dbd1d1;
   padding: 5px;
   font-family: 'Merriweather', serif;
   color: #1b1a1a;
