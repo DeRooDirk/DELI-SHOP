@@ -26,7 +26,7 @@
     text-align: center;
     transition: transform 0.4s;
     -webkit-transform-style: preserve-3d;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    transform-style: preserve-3d;
     user-select: none;
     cursor: pointer;
     border-radius: 5px;
