@@ -1,8 +1,8 @@
 /* Start for Variables ,Colors , Fonts  ,Empiece por Variables, Colores, Fuentes*/
 /* Start of Own Scss , Inicio de la propia Scss */
 .landing {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.9))), url("/Img/afood.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("/Img/afood.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("/Img/afood.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Img/afood.jpg");
   height: 65vh;
   max-width: 100vw;
   background-position: top 100;
@@ -91,14 +91,119 @@
   color: whitesmoke;
   font-family: 'Merriweather', serif;
   text-decoration: none;
-  border: 2px solid #bbc71a;
-  background-color: #272791;
+  background-color: #b86d18;
   padding: 1em 2em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.info {
+  height: 40vh;
+  background-color: #eceae6;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.5))), url(/zeten.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(/zeten.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.info .middle {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  letter-spacing: 2px;
+}
+
+.info .middle h2 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  padding: 20px;
+  margin-top: 52px;
+  color: whitesmoke;
+}
+
+.info .middle h3 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 0.9rem;
+  padding: 30px;
+  color: white;
+  font-weight: 300;
+}
+
+.info .middle button {
+  width: 300px;
+  margin: 0 auto;
+  font-family: 'Merriweather', serif;
+  padding: 1em;
+  background-color: #b86d18;
+  border: none;
+  text-transform: uppercase;
+  color: whitesmoke;
+  letter-spacing: 1px;
 }
 
 .slider {
-  background-color: antiquewhite;
-  max-width: 100vw;
-  height: 45vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.showcase {
+  background-color: #d4dedf;
+}
+
+.showcase .containershowcase {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.showcase .containershowcase .showcase {
+  border: 1px solid rgba(0, 0, 0, 0.411);
+  border-radius: 2px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: -1px 9px 12px -1px #888d94;
+          box-shadow: -1px 9px 12px -1px #888d94;
+}
+
+.showcase .containershowcase img {
+  padding: 10px;
+}
+
+.showcase .containershowcase p {
+  text-align: center;
+  padding: 5px;
+}
+
+.showcase .containershowcase button {
+  width: 50%;
+  margin: 10px auto;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

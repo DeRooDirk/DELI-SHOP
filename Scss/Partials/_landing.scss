@@ -1,7 +1,7 @@
 /* Start of Own Scss , Inicio de la propia Scss */
 
 .landing {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('/Img/afood.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/Img/afood.jpg');
     height: 65vh;
     max-width: 100vw;
     background-position: top 100;
@@ -63,17 +63,92 @@
                     color: whitesmoke;
                     font-family: 'Merriweather', serif;
                     text-decoration: none;
-                    border: 2px solid rgb(187, 199, 26);
-                    background-color: rgb(39, 39, 145);
+                    background-color: rgb(184, 109, 24);
                     padding: 1em 2em;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
                 }
             }
         }
     }
 }
 
+.info {
+    height: 40vh;
+    background-color: rgb(236, 234, 230);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(/zeten.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    .middle {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 2px;
+        h2 {
+            text-align: center;
+            font-family: 'Merriweather', serif;
+            font-size: 2rem;
+            padding: 20px;
+            margin-top: 52px;
+            color: whitesmoke;
+        }
+        h3 {
+            text-align: center;
+            font-family: 'Merriweather', serif;
+            font-size: 0.9rem;
+            padding: 30px;
+            color: white;
+            font-weight: 300;
+        }
+        button {
+            width: 300px;
+            margin: 0 auto;
+            font-family: 'Merriweather', serif;
+            padding: 1em;
+            background-color: rgb(184, 109, 24);
+            border: none;
+            text-transform: uppercase;
+            color: whitesmoke;
+            letter-spacing: 1px;
+        }
+    }
+}
+
 .slider {
-    background-color: rgb(250, 235, 215);
-    max-width: 100vw;
-    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.showcase {
+    background-color: rgb(212, 222, 223);
+    .containershowcase {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .showcase {
+            border: 1px solid rgba(0, 0, 0, 0.411);
+            border-radius: 2px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: -1px 9px 12px -1px rgb(136, 141, 148);
+        }
+        img {
+            padding: 10px;
+        }
+        p {
+            text-align: center;
+            padding: 5px;
+        }
+        button {
+            width: 50%;
+            margin: 10px auto;
+            cursor: pointer;
+        }
+    }
 }
