@@ -152,3 +152,29 @@
         }
     }
 }
+
+.map {
+    .box {
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    footer {
+        background-color: rgba(211, 211, 211, 0.76);
+        .box {
+            display: flex;
+            justify-content: space-between;
+            ul {
+                list-style: none;
+                display: flex;
+                li {
+                    padding: 5px;
+                    a {
+                        text-decoration: none;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
